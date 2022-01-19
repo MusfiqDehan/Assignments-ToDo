@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %} Update {% endblock title %}
+{% block body %}
+<div class="container first-section">
+    <h1>✏Edit Assignment</h1>
+    <form action="/edit/{{ todo.serial_no }}" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Name</label>
+            <input type="text" class="form-control" name="title" value="{{ todo.title }}" id="title"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="desc" class="form-label">Course Name</label>
+            <input type="text" class="form-control" name="desc" value="{{ todo.desc }}" id="desc">
+        </div>
+        <div class="mb-3">
+            <label for="due_date" class="form-label">Due Date</label>
+            <input type="date" class="form-control" name="due_date" id="due_date">
+        </div>
+
+        <div class="mb-3">
+            <label for="priority" class="form-label">Priority</label>
+            <select class="form-control" name="priority" id="priority">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-control" name="status" id="status">
+                <option>To Do</option>
+                <option>In Progress</option>
+                <option>Done</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <button onclick="editItem()" class="btn btn-primary my-btn" type="submit">Edit</button>
+        </div>
+    </form>
+</div>
+
+{% endblock body %}

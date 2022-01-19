@@ -1,0 +1,63 @@
+.first-section {
+  margin-top: 5rem;
+}
+
+.second-section {
+    margin-top: 5rem;
+  }
+
+.first-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.second-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.my-nav {
+    background-color: rgb(0, 255, 85);
+    padding: 0.5rem 6rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.my-nav-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-btn {
+    background-color: rgb(0, 255, 85);
+}
+
+.my-btn:hover {
+    background-color: rgb(0, 255, 85);
+}
+
+footer {
+    background-color: rgb(0, 255, 85);
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 4rem;
+}
+
+.my-about {
+    background-color: rgb(0, 255, 85);
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 4rem;
+}
